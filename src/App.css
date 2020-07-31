@@ -1,0 +1,10 @@
+.car_form {
+  margin: 30px 100px;
+  border: 5px  outset DarkCyan;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: LightPink;
+}
+.car_form:focus{
+  outline: none;
+}

@@ -1,0 +1,41 @@
+.main_claasOfCar {
+    margin: 30px 100px;
+    border: 5px outset DarkCyan;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+.main_claasOfCar:focus{
+    outline: none;
+
+}
+.car_text_status {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    padding: 3px;
+    
+}
+.button_car{
+    
+    background-color: DarkCyan;
+    border: 2px black;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 2px;
+}
+.button_car:hover {
+    font-size: 13px;
+    transition: all 0.2s;
+    background-color: pink;
+    border: none
+}
+.button_car:focus {
+    outline: none;
+}
